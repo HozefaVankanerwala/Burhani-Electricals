@@ -36,6 +36,13 @@
             padding: 2rem;
             text-align: center;
         }
+        .hero button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
         .services {
             display: flex;
             justify-content: space-around;
@@ -47,6 +54,12 @@
             border: 1px solid #ccc;
             width: 30%;
             text-align: center;
+        }
+        .service-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
         }
         .contact-info {
             background-color: #fff;
@@ -80,13 +93,32 @@
     <div class="hero">
         <h2>Your Trusted Repairing & Services Partner for Fans</h2>
         <p>Providing Fast and Reliable Repairing for All Types of Fan.</p>
-        <button>Get a Free Quote</button>
+        <!-- Button linking to Google Form -->
+        <a href="https://forms.gle/your-google-form-link" target="_blank">
+            <button>Get a Quotation</button>
+        </a>
     </div>
 
     <section class="services" id="services">
         <div class="service-item">
-            <h3>All Types of Fan Repairing</h3>
-            <p>Repairing All Types of Fan including Ceiling, Table, Wall, Tower, Pedestal, Floor, Wall Mount, Bladeless and Exhaust Fans.</p>
+            <h3>Ceiling Fan Repair</h3>
+            <img src="ceiling-fan-image-url.jpg" alt="Ceiling Fan">
+            <p>Repairing ceiling fans for homes and offices.</p>
+        </div>
+        <div class="service-item">
+            <h3>Table Fan Repair</h3>
+            <img src="table-fan-image-url.jpg" alt="Table Fan">
+            <p>Repairing table fans for personal use.</p>
+        </div>
+        <div class="service-item">
+            <h3>Pedestal Fan Repair</h3>
+            <img src="pedestal-fan-image-url.jpg" alt="Pedestal Fan">
+            <p>Repairing pedestal fans for greater airflow control.</p>
+        </div>
+        <div class="service-item">
+            <h3>Wall Fan Repair</h3>
+            <img src="wall-fan-image-url.jpg" alt="Wall Fan">
+            <p>Repairing wall-mounted fans for space saving solutions.</p>
         </div>
     </section>
 
